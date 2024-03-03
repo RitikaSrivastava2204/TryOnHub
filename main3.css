@@ -1,0 +1,165 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f3ee;
+    color: #463f3a;
+}
+
+header {
+    background-color: #8a817c;
+    color: #f4f3ee;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #bcb8b1;
+    overflow: hidden;
+    text-align: right;
+}
+
+.searching {
+    border: 2px solid #463f3a;
+    border-radius: 40px;
+    background-color: #f4f3ee;
+    margin-top: 5px;
+    margin-left: -25px;
+    width: 25%;
+    height: 1px;
+    padding: 20px;
+    padding-right: 10px;
+    position: absolute;
+}
+
+.searching input {
+    background: transparent;
+    color: #463f3a;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    height: 28.99px;
+    width: 76%;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: -13.5px;
+}
+
+.searching button {
+    border: 0;
+    background: transparent;
+    margin-left: 1px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: -15px;
+    float: right;
+}
+
+nav a {
+    display: inline-block;
+    color: #f4f3ee;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: #463f3a;
+}
+
+.container {
+    padding: 20px;
+}
+
+.feature-section {
+    background-color: #f4f3ee;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 48px;
+    color: #8a817c;
+}
+
+.feature-heading {
+    margin-top: 20px;
+    color: #463f3a;
+}
+
+@media (max-width: 768px) {
+    .feature-section {
+        padding: 50px 10px;
+    }
+}
+
+h2 {
+    color: #463f3a;
+}
+
+.product-card {
+    margin: 10px;
+    background-color: #e0afa0;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.product-card img {
+    height: 200px; /* Set your preferred height */
+    width: 100%; /* Responsive width */
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 10px; /* Add border-radius */
+}
+
+.product-card:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 8deg) scale(1.08);
+}
+
+.content-box {
+    background-color: white;
+    box-shadow: purple 0px 20px 50px -25px;
+    transition: all 0.5s ease-in-out;
+    transform-style: preserve-3d;
+    padding: 50px 25px 25px 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+.content-box .card-title,
+.content-box .card-content,
+.content-box .see-more,
+.content-box .card-text {
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0, 0, 20px);
+}
+
+.content-box .card-title:hover,
+.content-box .card-content:hover,
+.content-box .see-more:hover,
+.content-box .card-text:hover {
+    transform: translate3d(0, 0, 50px);
+}
+
+.content-box .card-text {
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #8a817c;
+    color: #f4f3ee;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* ritika's css */
